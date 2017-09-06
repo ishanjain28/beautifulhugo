@@ -123,3 +123,10 @@ id = "telegram"
 url = "https://telegram.me/%s"
 title = "Telegram"
 icon = "fa-telegram"
+
+[[social_icons]]
+id = "steam"
+url = "https://steamcommunity.com/id/%s/"
+title = "Steam"
+icon = "fa-steam"
+
