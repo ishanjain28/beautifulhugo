@@ -16,9 +16,9 @@ function fetch() {
         }
     }
 
-    xhr.open("GET", "http://localhost:4000/lastfm", true);
+    xhr.open("GET", "https://www.ishanjain.me/monitor/lastfm", true);
     xhr.send(null);
 }
 
 fetch();
-setInterval(fetch, 1000);
+setInterval(fetch, 45 * 1000);
