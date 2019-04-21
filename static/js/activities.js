@@ -16,7 +16,7 @@ function fetch() {
         }
     }
 
-    xhr.open("GET", "https://www.ishanjain.me/monitor/lastfm", true);
+    xhr.open("GET", "https://ishanjain.me/monitor/lastfm", true);
     xhr.send(null);
 }
 
